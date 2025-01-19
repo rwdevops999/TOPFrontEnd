@@ -1,13 +1,6 @@
-import {
-  fireEvent,
-  getByRole,
-  render,
-  screen,
-  waitFor,
-} from "@testing-library/react";
+import { fireEvent, screen, waitFor } from "@testing-library/react";
 import { renderRoute } from "../utils/utils";
 import { ROUTE_TEST } from "../../src/utils/constants";
-import { log } from "../../src/utils/log";
 
 describe("TestPage", () => {
   it("should render", async () => {

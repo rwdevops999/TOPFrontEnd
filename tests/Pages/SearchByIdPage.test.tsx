@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { fireEvent, screen, waitFor } from "@testing-library/react";
 import { renderRoute } from "../utils/utils";
 import {
   DT_SEARCH_PAGE_INPUT,

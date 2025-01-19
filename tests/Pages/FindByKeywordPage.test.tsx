@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { fireEvent, screen, waitFor } from "@testing-library/react";
 import { DT_TUTORIALS, ROUTE_FIND } from "../../src/utils/constants";
 import { renderRoute } from "../utils/utils";
 import userEvent from "@testing-library/user-event";

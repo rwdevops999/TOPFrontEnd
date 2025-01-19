@@ -1,11 +1,4 @@
-import {
-  fireEvent,
-  getAllByTestId,
-  render,
-  screen,
-  waitFor,
-  within,
-} from "@testing-library/react";
+import { fireEvent, screen, waitFor, within } from "@testing-library/react";
 import { createRepositories, createTutorials } from "../msw/database";
 import { renderRoute } from "../utils/utils";
 import {

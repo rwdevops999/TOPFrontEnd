@@ -32,7 +32,6 @@ const RepositoryHeader = ({ repository }: { repository: Repository }) => {
 
   log(debug, "RepositoryHeader", "IN, STATE", state, true);
 
-  let newrepo: Repository;
   let errorMessage: string;
 
   const { count } = useTutopedia(state);
@@ -58,7 +57,6 @@ const RepositoryHeader = ({ repository }: { repository: Repository }) => {
         .then((response) => {
           enqueueSnackbar("repository created", { variant: "success" });
           log(debug, CREPOHEADER, "Repository created", response.data, true);
-          newrepo = response.data;
         })
         .catch((error) => {
           log(debug, CREPOHEADER, "ERROR Creating Repository");

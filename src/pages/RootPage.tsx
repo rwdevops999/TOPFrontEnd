@@ -7,10 +7,10 @@ import {
   useColorScheme,
   ThemeProvider,
 } from "@mui/material";
-import { Outlet, useLocation, useNavigate } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { log } from "../utils/log";
 import { DT_ROOT, PROOT } from "../utils/constants";
-import { useHeader, useTutopedia } from "../hooks/custom";
+import { useHeader } from "../hooks/custom";
 import Providers from "../providers/Providers";
 import Sidebar from "../components/root/Sidebar";
 import Footer from "../components/root/footer/Footer";
