@@ -10,7 +10,7 @@ import { ReactNode, useEffect, useState } from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import useDebugContext from "../../hooks/useDebugContext";
 import { log } from "../../utils/log";
-import { CSETTINGCATEGORY, PSETTINGS } from "../../utils/constants";
+import { CSETTINGCATEGORY } from "../../utils/constants";
 
 const SettingCategory = ({
   id,

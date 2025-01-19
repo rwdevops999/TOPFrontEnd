@@ -1,10 +1,4 @@
-import {
-  fireEvent,
-  render,
-  screen,
-  waitFor,
-  within,
-} from "@testing-library/react";
+import { fireEvent, screen, waitFor, within } from "@testing-library/react";
 import {
   DT_SIDEBAR_HOME,
   DT_SIDEBAR_TUTORIALS_ALL,
@@ -17,7 +11,6 @@ import { act } from "react";
 import user from "@testing-library/user-event";
 import { simulateCreateDummyTutorial } from "../msw/backend";
 import { createTutorials } from "../msw/database";
-import { log } from "../../src/utils/log";
 
 const createLongString = (): string => {
   return "x".repeat(300);

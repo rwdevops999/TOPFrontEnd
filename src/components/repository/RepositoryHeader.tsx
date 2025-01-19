@@ -1,5 +1,5 @@
 import { useAuth0 } from "@auth0/auth0-react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import AddIcon from "../../icons/AddIcon";
 import DeleteIcon from "../../icons/DeleteIcon";
 import { Repository } from "../../entities/repository";

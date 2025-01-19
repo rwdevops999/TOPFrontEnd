@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import Grid from "@mui/material/Grid2";
 
 import { Typography } from "@mui/material";
-import { CFOOTER, DT_FOOTER } from "../../../utils/constants";
+import { DT_FOOTER } from "../../../utils/constants";
 import { Item } from "../../../mui/Item";
 import UserName from "./UserName";
 import RepositoryName from "./RepositoryName";

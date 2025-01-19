@@ -19,9 +19,7 @@ import { log } from "../../utils/log";
 import axios, { AxiosError } from "axios";
 import { HeaderBuilder } from "../../builders/HeaderBuilder";
 import {
-  CREPOSITORYDIALOG,
   CTUTORIALCONTAINER,
-  DT_TUTORIALS_CONTAINER,
   DT_TUTORIALS_ITEM,
   ROUTE_CREATE,
   ROUTE_TUTORIALS,

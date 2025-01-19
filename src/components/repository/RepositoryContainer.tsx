@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 import { Box, Divider } from "@mui/material";
 import { Repository } from "../../entities/repository";
-import TestPage2 from "../../pages/TestPage2";
 import RepositoryHeader from "./RepositoryHeader";
 import RepositoryContent from "./RepositoryContent";
 import RepositoryCheck from "./RepositoryCheck";

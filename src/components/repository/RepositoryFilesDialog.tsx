@@ -6,46 +6,27 @@ import {
   DialogTitle,
   Paper,
   PaperProps,
-  Slide,
   styled,
 } from "@mui/material";
-import { TransitionProps } from "@mui/material/transitions";
-import {
-  forwardRef,
-  ReactElement,
-  Ref,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import { useEffect, useRef, useState } from "react";
 import axios from "axios";
 import { Tutorial } from "../../entities/tutorial";
 import { log } from "../../utils/log";
 import useDebugContext from "../../hooks/useDebugContext";
 import {
-  CREPOCHECK,
   CREPOSITORYDIALOG,
   PREPOSITORY,
   ROUTE_REPOSITORY,
   TITLE,
 } from "../../utils/constants";
 import RepositoryFileTransfer from "./RepositoryFileTransfer";
-import { enqueueSnackbar, useSnackbar } from "notistack";
+import { useSnackbar } from "notistack";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useTutopedia } from "../../hooks/custom";
 import { TutopediaState } from "../../appdata/appdata";
 import { HeaderBuilder } from "../../builders/HeaderBuilder";
 import { DataBuilder } from "../../builders/DataBuilder";
 import { buildStateForStartup } from "../../builders/builders";
-
-const Transition = forwardRef(function Transition(
-  props: TransitionProps & {
-    children: ReactElement<any, any>;
-  },
-  ref: Ref<unknown>
-) {
-  return <Slide direction="up" ref={ref} {...props} />;
-});
 
 export interface RepositoryDialogRawProps {
   id: string;

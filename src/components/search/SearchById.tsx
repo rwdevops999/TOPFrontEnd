@@ -58,7 +58,7 @@ const SearchById = () => {
 
   const { count } = useTutopedia(state);
 
-  const [searchId, setSearchId] = useState<string>("");
+  const [searchId] = useState<string>("");
 
   const findTutorialById = (tutorialId: number) => {
     const header = new HeaderBuilder("Tut-O-Pedia", STTUTORIALS_ID);

@@ -1,17 +1,16 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { Repository } from "../entities/repository";
 import axios from "axios";
 import { log } from "../utils/log";
 import useDebugContext from "../hooks/useDebugContext";
 import { useAuth0 } from "@auth0/auth0-react";
 import { Box, Pagination } from "@mui/material";
-import Loader from "../Loader/Loader";
 import ErrorBanner from "../Error/ErrorBanner";
 import RepositoryDisplay from "../components/repository/RepositoryDisplay";
 import styled from "@emotion/styled";
 import { useLocation } from "react-router-dom";
 import { useData } from "../hooks/custom";
-import { DT_HEADER, DT_REPOSITORY, PREPOSITORY } from "../utils/constants";
+import { DT_REPOSITORY, PREPOSITORY } from "../utils/constants";
 
 const paginationStyle = {
   marginTop: "15px",

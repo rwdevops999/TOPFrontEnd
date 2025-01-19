@@ -1,11 +1,6 @@
 import { http, HttpResponse } from "msw";
 import { log } from "../../src/utils/log";
 import { database } from "./database";
-import { Repository } from "../../src/entities/repository";
-
-const getRandomInt = (max: number) => {
-  return Math.floor(Math.random() * max);
-};
 
 export const tutorialRestHandler = [
   http.get("/repository/default", () => {

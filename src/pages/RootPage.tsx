@@ -9,8 +9,8 @@ import {
 } from "@mui/material";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { log } from "../utils/log";
-import { DT_ROOT, PROOT, TITLE } from "../utils/constants";
-import { useData, useHeader, useTutopedia } from "../hooks/custom";
+import { DT_ROOT, PROOT } from "../utils/constants";
+import { useHeader, useTutopedia } from "../hooks/custom";
 import Providers from "../providers/Providers";
 import Sidebar from "../components/root/Sidebar";
 import Footer from "../components/root/footer/Footer";
@@ -80,7 +80,6 @@ const InnerGrid = styled(Grid)(({}) => ({
 const RootPage = () => {
   let { state } = useLocation();
   const { setMode } = useColorScheme();
-  const navigate = useNavigate();
   const { enqueueSnackbar } = useSnackbar();
 
   setMode("light");
@@ -88,8 +87,6 @@ const RootPage = () => {
   log(debug, "RootPage", "IN", state, true);
 
   const [defaultRepo, setDefaultRepo] = useState<string>("Not Set");
-
-  const { count } = useTutopedia(state);
 
   useEffect(() => {
     async function getDefaultRepo() {

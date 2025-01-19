@@ -210,7 +210,7 @@ const DashboardSidebarSubNavigation = ({
                       {navigationItemTitle
                         .split(" ")
                         .slice(0, 2)
-                        .map((itemTitleWord) =>
+                        .map((itemTitleWord: any) =>
                           itemTitleWord.charAt(0).toUpperCase()
                         )}
                     </Avatar>

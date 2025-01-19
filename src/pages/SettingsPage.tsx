@@ -5,12 +5,7 @@ import CloudIcon from "../icons/CloudIcon";
 import { Box, Typography } from "@mui/material";
 import SettingsIcon from "../icons/SettingsIcon";
 import { useEffect, useState } from "react";
-import {
-  CCATEGORYOCI,
-  CCATEGORYSYSTEM,
-  DT_SETTINGS,
-  PSETTINGS,
-} from "../utils/constants";
+import { DT_SETTINGS, PSETTINGS } from "../utils/constants";
 import useDebugContext from "../hooks/useDebugContext";
 import { log } from "../utils/log";
 import axios from "axios";

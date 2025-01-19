@@ -8,7 +8,6 @@ import { MuiChipsInputChip } from "../mui/chip/mui.types";
 import styled from "@emotion/styled";
 import { MuiChipsInput } from "../mui/chip/MuiChipsInput";
 import {
-  DT_FIND_PAGE,
   DT_FIND_PAGE_FORM,
   PFIND_BY_KEYWORD,
   ROUTE_TUTORIALS,

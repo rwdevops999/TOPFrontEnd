@@ -1,5 +1,3 @@
-import { styled } from "@mui/material";
-import ListItemButton from "@mui/material/ListItemButton";
 import type {} from "@mui/material/themeCssVarsAugmentation";
 import { NavigationPageItem } from "@toolpad/core";
 import { NavigationItem, NavigationSubheaderItem } from "../AppProvider";

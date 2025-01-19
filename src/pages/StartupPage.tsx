@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { DT_STARTUP, DTSTARTUP, PSTARTUP } from "../utils/constants";
+import { DT_STARTUP } from "../utils/constants";
 
 const getRandomInt = (max: number) => {
   return Math.trunc(Math.random() * max) + 1;

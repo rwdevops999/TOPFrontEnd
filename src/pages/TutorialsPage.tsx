@@ -4,7 +4,6 @@ import {
   DT_SPEEDDIAL,
   DT_TUTORIALS,
   DT_TUTORIALS_CONTAINER,
-  DT_TUTORIALS_ITEMS,
   PTUTORIALS,
   ROUTE_TUTORIALS,
   STTUTORIALS_ALL,
@@ -89,21 +88,6 @@ const TutorialsPage = () => {
     }
 
     return apiURL;
-  };
-
-  const setPage = (loadedTutorials: Tutorial[]): void => {
-    // let page = 0;
-    let page = Math.floor((loadedTutorials.length - 1) / tutorialsPerPage) + 1;
-    if (page < currentPage.current) {
-      currentPage.current = page;
-    }
-    // } else if (doReset) {
-    //   currentPage.current = 1;
-    // }
-
-    const newOffset =
-      ((currentPage.current - 1) * tutorialsPerPage) % loadedTutorials.length;
-    setBeginOffset(newOffset);
   };
 
   useEffect(() => {

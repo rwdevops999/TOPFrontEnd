@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import { forwardRef } from "react";
 import TextFieldChips from "./TextFieldChip/TextFieldChips";
 import { KEYBOARD_KEY } from "./shared/constants/event";
 import { append, removeIndex, updateIndex } from "./shared/helpers/array";
