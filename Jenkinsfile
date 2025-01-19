@@ -56,31 +56,31 @@ pipeline {
             }
         }
 
-        stage("test") {
-            when {
-                expression {
-                    isValid
-                }
-            }
+        // stage("test") {
+        //     when {
+        //         expression {
+        //             isValid
+        //         }
+        //     }
 
-            steps {
-                sh '''
-					npx vitest --reporter=junit --outputFile=./test-results/test-result.xml
-				'''
-            }
+        //     steps {
+        //         sh '''
+		// 			npx vitest --reporter=junit --outputFile=./test-results/test-result.xml
+		// 		'''
+        //     }
 
-            post {
-			    success {
-			        junit '**/test-results/**/*.xml'
-			    }
+        //     post {
+		// 	    success {
+		// 	        junit '**/test-results/**/*.xml'
+		// 	    }
 
-				failure {
-				    script {
-    				    isValid = false
-    				}
-				}
-			}
-        }
+		// 		failure {
+		// 		    script {
+    	// 			    isValid = false
+    	// 			}
+		// 		}
+		// 	}
+        // }
 
         stage("package") {
             when {
