@@ -1,0 +1,111 @@
+// Application Title
+export const TITLE = "Tut-O-Pedia";
+
+// Routes
+export const ROUTE_ROOT = "/";
+export const ROUTE_SETTINGS = "/settings";
+export const ROUTE_REPOSITORY = "/repository";
+export const ROUTE_CREATE = "/create";
+export const ROUTE_TUTORIALS = "/tutorials";
+export const ROUTE_SEARCH = "/search";
+export const ROUTE_FIND = "/find";
+export const ROUTE_TEST = "/test";
+
+// Pages
+export const PCREATE = "CREATE";
+export const PFIND_BY_KEYWORD = "FIND_BY_KEYWORD";
+export const PREPOSITORY = "REPOSITORY";
+export const PROOT = "ROOT";
+export const PSEARCH_BY_ID = "SEARCH_BY_ID";
+export const PSETTINGS = "SETTINGS";
+export const PSTARTUP = "STARTUP";
+export const PTUTORIALS = "TUTORIALS";
+
+// Components
+export const CHEADER = "HEADER";
+export const CFOOTER = "FOOTER";
+export const CSIDEBAR = "SIDEBAR";
+export const CCATEGORYOCI = "CATEGORY_OCI";
+export const CCATEGORYSYSTEM = "CATEGORY_SYSTEM";
+export const CREPOHEADER = "REPOHEADER";
+export const CREPOCHECK = "REPOCHECK";
+export const CSETTINGCATEGORY = "SETTINGCATEGORY";
+export const CTUTORIALCONTAINER = "TUTORIALCONTAINER";
+export const CREPOSITORYDIALOG = "REPOSITORYDIALOG";
+
+// Subtitles
+export const STCREATE = PCREATE;
+export const STUPDATE = "UPDATE";
+export const STFIND_BY_KEYWORD = PFIND_BY_KEYWORD;
+export const STREPOSITORY = PREPOSITORY;
+export const STHOME = "HOME";
+export const STSEARCH_BY_ID = PSEARCH_BY_ID;
+export const STSETTINGS = PSETTINGS;
+export const STSTARTUP = PSTARTUP;
+export const STTUTORIALS_ALL = "ALL " + PTUTORIALS;
+export const STTUTORIALS_PUB = "PUBLISHED" + PTUTORIALS;
+export const STTUTORIALS_UNPUB = "UNPUBLISHED" + PTUTORIALS;
+export const STTUTORIALS_ID = PTUTORIALS + " BY ID";
+export const STTUTORIALS_KEYWORDS = PTUTORIALS + " BY KEYWORD";
+
+// MENU
+export const MTUTOPEDIA = TITLE;
+export const MTUTORIALS_ALL = STTUTORIALS_ALL;
+export const MTUTORIALS_PUB = STTUTORIALS_PUB;
+export const MTUTORIALS_UNPUB = STTUTORIALS_UNPUB;
+export const MCREATE = PCREATE;
+export const MSEARCH_ID = PSEARCH_BY_ID;
+export const MFIND_KEYWORD = PFIND_BY_KEYWORD;
+export const MSETTINGS = PSETTINGS;
+export const MREPOSITORY = PREPOSITORY;
+
+// DATA TITLES
+export const DT_ROOT = "DT_ROOT";
+
+export const DT_STARTUP = "DT_STARTUP";
+
+export const DT_SIDEBAR_TUTOPEDIA = "DT_SIDEBAR_TUTOPEDIA";
+export const DT_SIDEBAR_HOME = "DT_SIDEBAR_HOME";
+export const DT_SIDEBAR_TUTORIALS_ALL = "DT_SIDEBAR_TUTORIALS_ALL";
+export const DT_SIDEBAR_TUTORIALS_PUB = "DT_SIDEBAR_TUTORIALS_PUB";
+export const DT_SIDEBAR_TUTORIALS_UNPUB = "DT_SIDEBAR_TUTORIALS_UNPUB";
+
+export const DT_SIDEBAR_CREATE = "DT_SIDEBAR_CREATE";
+
+export const DT_SIDEBAR_FIND = "DT_SIDEBAR_FIND";
+export const DT_SIDEBAR_SEARCH_ID = "DT_SIDEBAR_SEARCH_ID";
+export const DT_SIDEBAR_FIND_KEYWORD = "DT_SIDEBAR_FIND_KEYWORD";
+
+export const DT_SIDEBAR_CLOUD = "DT_SIDEBAR_CLOUD";
+export const DT_SIDEBAR_CLOUD_SETTINGS = "DT_SIDEBAR_CLOUD_SETTINGS";
+export const DT_SIDEBAR_CLOUD_REPOSITORY = "DT_SIDEBAR_CLOUD_REPOSITORY";
+
+export const DT_SIDEBAR_SOCIAL_MEDIA = "DT_SIDEBAR_SOCIAL_MEDIA";
+
+export const DT_HEADER = "DT_HEADER";
+export const DT_FOOTER = "DT_FOOTER";
+
+export const DT_TUTORIALS = "DT_TUTORIALS";
+export const DT_TUTORIALS_CONTAINER = DT_TUTORIALS + "_CONTAINER";
+export const DT_TUTORIALS_ITEM = DT_TUTORIALS_CONTAINER + "_ITEM";
+export const DT_SPEEDDIAL = "DT_SPEEDDIAL";
+
+export const DT_SETTINGS = "DT_SETTINGS";
+export const DT_REPOSITORY = "DT_REPOSITORY";
+
+export const DT_CREATE_PAGE = "DT_CREATE";
+export const DT_CREATE_PAGE_FILE_INPUT = "DT_CREATE_PAGE_FILE_INPUT";
+export const DT_CREATE_PAGE_UPDATE_BUTTON = "DT_CREATE_PAGE_UPDATE_BUTTON";
+export const DT_CREATE_PAGE_CREATE_BUTTON = "DT_CREATE_PAGE_CREATE_BUTTON";
+export const DT_CREATE_PAGE_CANCEL_BUTTON = "DT_CREATE_PAGE_CANCEL_BUTTON";
+
+export const DT_SEARCH_PAGE = "DT_SEARCH_BY_ID";
+export const DT_SEARCH_PAGE_INPUT = DT_SEARCH_PAGE + "_INPUT";
+
+export const DT_FIND_PAGE = "DT_FIND_BY_KEYWORD";
+export const DT_FIND_PAGE_FORM = DT_FIND_PAGE + "_FORM";
+
+// OTHERS
+export const ID_CREATE_PAGE_UPDATE_BUTTON = "UPDATE BUTTON";
+export const ID_CREATE_PAGE_CREATE_BUTTON = "CREATE BUTTON";
+export const ID_CREATE_PAGE_CANCEL_BUTTON = "CANCEL BUTTON";
